@@ -1,0 +1,81 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #d9f0ec;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #c7e4df;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact-info {
+    text-align: right;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.contact-info img {
+    width: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(239, 251, 253);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    overflow: hidden;
+    display: flex;
+}
+
+.card-image {
+    width:25%;
+    object-fit: contain; /* Cambiar "cover" por "contain" */
+    height: auto; /* Ajustar la altura automáticamente */
+    background-color: #f9f9f9; /* Opcional: agregar un fondo si sobra espacio */
+}
+
+.card-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.card-content h2 {
+    margin: 0 0 10px;
+    color: #0078d7;
+}
+
+.card-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
